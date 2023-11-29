@@ -15,29 +15,29 @@
     flex-direction: row;
     background-color: white;
     color: rgb(75, 153, 226);
-    height: 100px;
     font-family: 'Titan One', sans-serif;
     box-shadow: 0px 3px 10px #2c3546;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
  }
 
- #logo {
-    display: flex;
-    font-size: 2em;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: center;
-    align-content: center;
-
-
+ #logo img{
+   display: flex;
+   width: 200px;
+   height: 80px;
+   align-items: center;
+   margin-top: 15px ;
+  
  }
 
  #nav {
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
     text-align: center;
     align-items: center;
     color: rgb(75, 153, 226);
+    flex-wrap: wrap;
+   justify-content: flex-end;
 
  }
 
@@ -46,6 +46,17 @@
     padding: 25px;
  }
 
+#banner{
+   height: 250px;
+   background-color: rgb(75, 153, 226) ;
+}
+
+#sabores{
+   background-color: aliceblue;
+   height: 250px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
  #rodape {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -54,6 +65,8 @@
     height: 100px;
     font-family: 'Titan One', sans-serif;
     box-shadow: 0px 3px 10px #2c3546;
-    justify-content: center;
     align-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
  }
