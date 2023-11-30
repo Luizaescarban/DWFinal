@@ -288,3 +288,16 @@ input {
    justify-items: center;
    align-items: center;
 }
+.linha{
+   margin: 10px;
+}
+.icon{
+   width: 16px;
+   height: 16px;
+   
+}
+#iconl{
+   width: 22px; 
+   height: 22px;
+   
+}
