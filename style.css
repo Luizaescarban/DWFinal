@@ -288,8 +288,12 @@ input {
    justify-items: center;
    align-items: center;
 }
+#rodape p{
+   font-family: 'Titan One', sans-serif;
+}
 .linha{
-   margin: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 .icon{
    width: 16px;
@@ -301,3 +305,4 @@ input {
    height: 22px;
    
 }
+
