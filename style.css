@@ -257,6 +257,9 @@ input {
    border-radius: 6px;
    padding: 1px 4px;
 }
+::placeholder{
+   text-align: center;
+}
 
 /*FOOTER*/
 #rodape {
