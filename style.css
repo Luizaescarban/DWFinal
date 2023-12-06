@@ -311,7 +311,12 @@ input {
 
 /* RESPONSIVIDADE*/
 
-
+@media (max-width: 950px){
+#rodape #div1{
+   display: grid;
+      grid-template-columns: 1fr ;
+}
+}
 @media (max-width: 800px){
    #sabores{
       grid-template-columns: 1fr;
