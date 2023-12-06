@@ -36,7 +36,6 @@
 
 #nav {
    display: flex;
-   display: flex;
    flex-direction: row;
    text-align: center;
    align-items: center;
@@ -369,6 +368,7 @@ input {
 }
 
 @media (max-width: 500px){
+
    #sabores{
       grid-template-columns: 1fr;
       margin: 0px;
