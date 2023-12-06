@@ -309,3 +309,111 @@ input {
    
 }
 
+/* RESPONSIVIDADE*/
+
+@media (max-width: 1100px){
+
+}
+@media (max-width: 800px){
+   #sabores{
+      grid-template-columns: 1fr;
+      margin: 0px;
+      padding: 20px 80px;
+   }
+   #acai{
+      grid-template-columns: 1fr;
+    padding: 20px 80px;
+   }
+   #picoles{
+      grid-template-columns: 1fr;
+      margin: 0px;
+      padding: 20px 80px;
+   }
+   #cadastro{
+      grid-template-columns: 1fr;
+    padding: 20px 80px;
+   }
+   #cadastro h1{
+      font-size: 3em;
+      text-align: center;
+   }
+   #cadastro p{
+      font-size: 1.2em;
+      text-align: center;
+   }
+   #rodape #div1{
+      display: grid;
+      grid-template-columns: 1fr ;
+   }
+   #rodape p{
+      font-size: 0.7em;
+   }
+   .linha p{
+      font-size: 0.5em;
+   }
+   .linha p{
+      font-size: 0.5em;
+   }
+    .icon {
+      display: none;
+   }
+   #iconl {
+      display: none;
+   }
+   #forms{
+      margin: 0px;
+   }
+}
+
+@media (max-width: 500px){
+   #sabores{
+      grid-template-columns: 1fr;
+      margin: 0px;
+      padding: 20px 80px;
+   }
+   #acai{
+      grid-template-columns: 1fr;
+    padding: 20px 80px;
+   }
+   #picoles{
+      grid-template-columns: 1fr;
+      margin: 0px;
+      padding: 20px 80px;
+   }
+   #cadastro{
+      grid-template-columns: 1fr;
+    padding: 20px 80px;
+   }
+   #cadastro h1{
+      font-size: 3em;
+      text-align: center;
+   }
+   #cadastro p{
+      font-size: 1.2em;
+      text-align: center;
+   }
+   #rodape #div1{
+      display: grid;
+      grid-template-columns: 1fr ;
+   }
+   #rodape p{
+      font-size: 0.7em;
+   }
+   .linha p{
+      font-size: 0.5em;
+   }
+   .linha p{
+      font-size: 0.5em;
+   }
+    .icon {
+      display: none;
+   }
+   #iconl {
+      display: none;
+   }
+   #forms{
+      margin: 0px;
+   }
+}
+
+
